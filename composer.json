@@ -1,0 +1,26 @@
+{
+  "name": "vladyslavstartsev/deferred-event-subscriber",
+  "description": "Package to help defer dependency resolution of  event subscribers",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "event",
+    "observer"
+  ],
+  "minimum-stability": "stable",
+  "homepage": "https://github.com/vladyslavstartsev/laravel-deferred-event-subscriber",
+  "authors": [
+    {
+      "name": "Vladyslav Startsev",
+      "email": "vladyslavstartsev@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "~5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "VladyslavStartsev\\DeferredEventSubscriber\\": "src"
+    }
+  }
+}
